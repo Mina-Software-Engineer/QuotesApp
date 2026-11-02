@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="15dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp"
+    android:backgroundTint="#808856">
+
+    <TextView
+        android:id="@+id/fav_quote_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        tools:text="klashdfkjahsdjfkhasdf"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</androidx.cardview.widget.CardView>
